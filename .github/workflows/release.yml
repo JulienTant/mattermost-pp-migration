@@ -7,9 +7,10 @@ on:
       - "v*"
 
 jobs:
-  pre-release:
+  release:
     name: "Release"
     runs-on: "ubuntu-latest"
+    permissions: write-all
 
     steps:
       - uses: actions/checkout@v3
