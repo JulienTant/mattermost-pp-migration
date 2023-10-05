@@ -1,6 +1,6 @@
 module github.com/julientant/mattermost-pp-migration
 
-go 1.21.1
+go 1.21
 
 require (
 	github.com/mattermost/mattermost/server/public v0.0.9
